@@ -21,8 +21,8 @@ public class PaymentCardView extends RelativeLayout {
     private ImageView mImgCard;
     private TextView mTxtCardTitle;
     private Typeface RegularTypeFace;
-    EditText mEdtCardNumber, mEdtCvv;
-    EditText mSpinnerMonth, mSpinnerYear;
+    public EditText mEdtCardNumber, mEdtCvv;
+    public EditText mSpinnerMonth, mSpinnerYear;
     private OnPaymentCardEventListener mListener;
 
     /**
